@@ -10,7 +10,7 @@ recursive_fib.o : recursive_fib.c
 	clang recursive_fib.c -c -o recursive_fib.o -Wall -Wextra -g
 
 iterative_fib.o : iterative_fib.c
-	clang iterative_fib.c -o iterative_fib.o -Wall -Wextra -g
+	clang iterative_fib.c -c -o iterative_fib.o -Wall -Wextra -g
 
 print_fib.o : print_fib.c fib.h
 	clang print_fib.c -c -o print_fib.o -Wall -Wextra -g
